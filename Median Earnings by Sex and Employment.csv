@@ -1,0 +1,37 @@
+﻿Label,Median Earnings Estimate (Dollars),Median Earnings Margin of Error (Dollars),Median Earnings for Male Estimate (Dollars),Median Earnings for Male Margin of Error (Dollars),Median Earnings for Female Estimate (Dollars),Median Earnings for Female Margin of Error (Dollars),Women's Earnings as a percentage of Men's Earning Estimate,Women's Earnings as a percentage of Men's Earning Margin of Error
+Civilian employed population 16 years and over with earnings,"39,777",±110,"45,893",±94,"32,436",±49,70.70%,±0.2
+"    Management, business, science, and arts occupations:","61,048",±75,"74,958",±314,"51,716",±83,69.00%,±0.3
+"        Management, business, and financial occupations:","69,933",±305,"80,416",±186,"60,350",±141,75.00%,±0.2
+            Management occupations,"72,195",±215,"82,013",±258,"61,177",±206,74.60%,±0.3
+            Business and financial operations occupations,"64,392",±449,"74,452",±914,"58,116",±467,78.10%,±1.2
+"        Computer, engineering, and science occupations:","79,643",±510,"82,657",±520,"67,410",±523,81.60%,±0.9
+            Computer and mathematical occupations,"81,727",±273,"86,274",±458,"71,693",±526,83.10%,±0.7
+            Architecture and engineering occupations,"81,454",±235,"83,485",±835,"70,810",±614,84.80%,±1.2
+"            Life, physical, and social science occupations","62,235",±376,"67,726","±1,440","58,615","±1,447",86.50%,±2.9
+"        Education, legal, community service, arts, and media occupations:","43,815",±299,"51,752",±227,"40,785",±132,78.80%,±0.4
+            Community and social service occupations,"42,002",±207,"43,888",±799,"41,497",±240,94.60%,±1.8
+            Legal occupations,"83,108","±1,801","120,193","±3,491","63,832","±1,851",53.10%,±2.2
+"            Educational instruction, and library occupations","41,377",±147,"50,772",±285,"38,546",±414,75.90%,±0.9
+"            Arts, design, entertainment, sports, and media occupations","41,049",±291,"46,333",±729,"35,987",±553,77.70%,±1.6
+        Healthcare practitioners and technical occupations:,"60,432",±165,"77,963","±1,619","55,938",±287,71.70%,±1.5
+            Health diagnosing and treating practitioners and other technical occupations,"71,281",±190,"102,063",±396,"65,978",±229,64.60%,±0.3
+            Health technologists and technicians,"40,009",±312,"44,466","±1,297","38,187",±511,85.90%,±2.7
+    Service occupations:,"21,559",±65,"26,154",±123,"19,310",±136,73.80%,±0.6
+        Healthcare support occupations,"24,221",±195,"26,284",±345,"23,806",±210,90.60%,±1.5
+        Protective service occupations:,"45,887",±444,"50,560",±361,"33,093","±1,441",65.50%,±2.9
+"            Firefighting and prevention, and other protective service workers including supervisors","32,237",±315,"36,800",±505,"23,715",±906,64.40%,±2.6
+            Law enforcement workers including supervisors,"61,370",±348,"64,043","±1,393","50,928",±675,79.50%,±2.1
+        Food preparation and serving related occupations,"16,320",±119,"18,662",±292,"15,048",±163,80.60%,±1.4
+        Building and grounds cleaning and maintenance occupations,"22,134",±114,"26,504",±195,"17,741",±232,66.90%,±1.1
+        Personal care and service occupations,"18,885",±337,"21,827",±362,"17,723",±324,81.20%,±1.7
+    Sales and office occupations:,"31,928",±63,"40,705",±133,"29,698",±152,73.00%,±0.4
+        Sales and related occupations,"31,040",±130,"43,251",±692,"22,080",±122,51.10%,±0.8
+        Office and administrative support occupations,"32,414",±72,"36,516",±225,"31,847",±67,87.20%,±0.5
+"    Natural resources, construction, and maintenance occupations:","40,544",±92,"41,006",±91,"25,868",±490,63.10%,±1.2
+"        Farming, fishing, and forestry occupations","24,575",±485,"26,980",±382,"17,480",±647,64.80%,±2.5
+        Construction and extraction occupations,"39,789",±353,"40,139",±127,"30,119",±872,75.00%,±2.2
+"        Installation, maintenance, and repair occupations","45,946",±256,"46,328",±261,"36,636",±969,79.10%,±2.1
+"    Production, transportation, and material moving occupations:","32,065",±72,"36,165",±113,"25,111",±138,69.40%,±0.4
+        Production occupations,"36,069",±123,"40,892",±119,"26,979",±170,66.00%,±0.4
+        Transportation occupations,"37,255",±200,"40,610",±158,"25,059",±431,61.70%,±1.1
+        Material moving occupations,"24,978",±185,"26,375",±147,"21,404",±190,81.20%,±0.8
