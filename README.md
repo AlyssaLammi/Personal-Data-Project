@@ -4,8 +4,8 @@
 When I started this project, I wanted to see what the difference between men's and women's pay was in STEM. Which is what motivated me to choose this dataset because it contains the average median pay for men and women arcoss a variety of fields. I choose with this dataset instead of choosing a strictly STEM pay focused dataset because I thought that it would be more interesting (and I simply just got curious when I stumbeled upon this dataset) to see what the pay gap was like across more than just STEM. In school, whenever a pay gap does get mentioned, it is always STEM focused and I wanted to go beyond that and show that, in general, women are paid less than men no matter the field. 
 
 ## Data Process
-The data that I collected for this project came from the 
-https://data.census.gov/cedsci/table?q=median%20earnings%20by%20sex&t=Employment%3AEmployment%20and%20Labor%20Force%20Status&tid=ACSST1Y2019.S2411 
+The data that I collected for this project came from the United States Census Bureau and can be downloaded here:
+https://data.census.gov/cedsci/table?q=median%20earnings%20by%20sex&t=Employment%3AEmployment%20and%20Labor%20Force%20Status&tid=ACSST1Y2019.S2411. I personally used the data from 2019 though similar analysis could be done for any/all of the years where this kind of data was collected. The only thing I changed when it comes to the datatable is the column names. I wanted to condense them down a little in order to, hopefully, make them easier to understand. One thing I really like about this dataset is that it accounts for a certain margin of error that can happen when it comes to collecting this kind of data. I did not do anything with this margin of error though I think that it could make for interesting observation.
 
 ## Visualization
 
