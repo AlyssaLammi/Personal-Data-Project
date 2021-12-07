@@ -17,7 +17,7 @@ ggplot(data, mapping = aes(x=data$`Median Earnings for Male Estimate (Dollars)`,
 
 ### Figure 2
 <img src="https://raw.githubusercontent.com/AlyssaLammi/Personal-Data-Project/main/Median%20Earnings%20for%20Men%20vs%20Women%20Graph.png">
-Caption: The same scatterplot as figure 1 just with a geom_smooth() line as line of best fit. The geom_smooth() line has nothing to do with linear regression.
+Caption: The same scatterplot as figure 1 just with a geom_smooth() line as the line of best fit. The geom_smooth() line has nothing to do with linear regression.
 
 ggplot(data, mapping = aes(x=data$`Median Earnings for Male Estimate (Dollars)`, y=data$`Median Earnings for Female Estimate (Dollars)`)) + geom_point() + xlab("Median Earnings for Men") + ylab("Median Earnings for Women") + ggtitle("Median Earnings for Men vs Women") + geom_smooth()
 
