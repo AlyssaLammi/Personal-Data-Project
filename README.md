@@ -12,10 +12,12 @@ https://data.census.gov/cedsci/table?q=median%20earnings%20by%20sex&t=Employment
 ### Figure 1
 <img src="https://raw.githubusercontent.com/AlyssaLammi/Personal-Data-Project/main/Median%20Earnings%20for%20Men%20vs%20Women%20Scatterplot.png">
 Caption: A scatterplot of the column 'Median Earnings for Male Estimate (Dollars)' by the column 'Median Earnings for Female Estimate (Dollars)' from the dataset.
+ggplot(data, mapping = aes(x=data$`Median Earnings for Male Estimate (Dollars)`, y=data$`Median Earnings for Female Estimate (Dollars)`)) + geom_point() + xlab("Median Earnings for Men") + ylab("Median Earnings for Women") + ggtitle("Median Earnings for Men vs Women")
 
 ### Figure 2
 <img src="https://raw.githubusercontent.com/AlyssaLammi/Personal-Data-Project/main/Median%20Earnings%20for%20Men%20vs%20Women%20Graph.png">
 Caption: The same scatterplot as figure 1 just with a geom_smooth() line as line of best fit. The geom_smooth() line has nothing to do with linear regression.
+ggplot(data, mapping = aes(x=data$`Median Earnings for Male Estimate (Dollars)`, y=data$`Median Earnings for Female Estimate (Dollars)`)) + geom_point() + xlab("Median Earnings for Men") + ylab("Median Earnings for Women") + ggtitle("Median Earnings for Men vs Women") + geom_smooth()
 
 The two figures above (figure 1 and 2) show how, in general, men are paid more across all of the fields in the dataset than women are. They are also important because they show how the average median pay for women caps out at about $70,000 while there is not the same kind of limit or cap on the average median pay of men. 
 
@@ -24,6 +26,7 @@ The two figures above (figure 1 and 2) show how, in general, men are paid more a
 ### Figure 3
 <img src="https://raw.githubusercontent.com/AlyssaLammi/Personal-Data-Project/main/MedIan%20Earnings%20for%20Men%20vs%20Women.png">
 Caption: The same scatterplot as figure 1 but with a linear regression line over the top of it.
+ggplot(data, mapping = aes(x=data$`Median Earnings for Male Estimate (Dollars)`, y=data$`Median Earnings for Female Estimate (Dollars)`)) + geom_point() + xlab("Median Earnings for Men") + ylab("Median Earnings for Women") + ggtitle("Median Earnings for Men vs Women") + geom_smooth(method=lm, formulta=y~x, color='blue')
 
 The firgure above (figure 3) uses linear regression to further prove, beyond just looking at the graphed points, that men are, on average, paid more than women. It does this by highlighting the average median of men verse women in the form of a line which makes it easier to see the division in average pay. I did not learn anything new by using a linear regression model. I just used it to further prove what can be easierly seen by looking at the first scatter plot. 
 
